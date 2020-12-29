@@ -30,9 +30,7 @@ function map(array, cb) {
   cb = array.map(function(elemento){
     return elemento;
   });
-  cb.forEach(function(elemento){
-    nuevoArray.push(elemento);
-  })
+  nuevoArray = cb;
   return nuevoArray;
 }
 
