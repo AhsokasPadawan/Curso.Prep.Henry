@@ -1,0 +1,148 @@
+
+
+#Contenedor{
+    position: relative;
+}
+/* ----- Encabezado ---------*/
+#Encabezado{
+    position: relative;
+    height: 350px;
+}
+#Encabezado h1{
+    display: inline-block;  
+    position: absolute;
+    right: 400px;
+    top: 80px;
+}
+#Encabezado div{
+    position: absolute;
+    left: 300px;
+    background-color: brown;
+    height: 50px;
+    width: 800px;
+    z-index: -1;
+}
+#Encabezado img{
+    display: inline;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 350px;
+    top: 50px;
+    bottom: 10px;
+    z-index: 2;
+}
+#Encabezado p{
+    display: inline;
+    position: absolute;
+    right: 300px;
+    top: 140px;
+    font-size: 18px;
+}
+
+/* -------- Experiencias laborales ------ */
+#Experiencias{
+    background-image: url(./img/services-bg.jpg);
+    height: 450px;
+}
+#Experiencias h2{
+    padding-top: 20px;
+}
+
+/* -------- About me --------------*/
+#About{
+    position: relative;
+    height: 350px;
+    padding-left: 50px;
+}
+#About h2{
+    text-align: center;
+    padding: 0px;
+}
+#About img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    right:  150px;
+    bottom: 90px;
+    
+}
+#LineaRoja{    
+    display: inline-flex;
+    position: absolute;
+    background-color: brown;
+    height: 50px;
+    width: 1000px;
+    z-index: -1;
+    left: 100px;
+}
+#LineaRoja p{
+    font-weight: bold;
+    font-size: 24px;
+}
+#Parrafo{
+    display: inline;
+    position: relative;
+    top: 70px;
+    left: 70px;
+
+}
+#Parrafo p{
+    display: inline;
+    font-size: 20px;
+}
+
+/* ------ Educación --------- */
+
+#Educacion{
+    background-image: url(./img/utn.jpg);
+    height: 400px;
+}
+#Educacion h2{
+    padding-top: 20px;
+}
+
+/* ----- Hobbies ------*/
+#Hobbies img{
+    width: 300px;
+    height: 400px;
+}
+
+/* ------ Skills --------*/
+#Skills{
+    background-image: url(./img/skills.jpg);
+    height: 400px;
+}
+
+/* ----- Generales ------*/
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 24px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.triple{
+    display: flex;
+    justify-content: space-around;
+}
+.caja{
+    background-color: brown;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+}
+.caja p{
+    text-align: center;
+    margin: 2px;
+    color: cornsilk;
+    font-size: 18px;
+}
